@@ -1,8 +1,8 @@
 """
-    This program sends a message to a queue on the RabbitMQ server.
+   Brady Monks
+   1/25/2023
+   This code creates a function to send the message to the server.
 
-    Author: Denise Case
-    Date: January 14, 2023
 
 """
 
@@ -10,6 +10,7 @@
 import pika
 import sys
 
+# Create a function that sends a message to the server queue
 def send_message(host: str, queue_name: str, message: str):
     """
     Creates and sends a message to the queue each execution.
@@ -35,13 +36,11 @@ def send_message(host: str, queue_name: str, message: str):
     except pika.exceptions.AMQPConnectionError as e:
         print(f"Error: Connection to RabbitMQ server failed: {e}")
         sys.exit(1)
-    finally:
-        # close the connection to the server
-        conn.close()
+    
 
 # Standard Python idiom to indicate main program entry point
 # This allows us to import this module and use its functions
 # without executing the code below.
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
-    send_message("llllocalhost","hello","Hello World!")
+    send_message("localhost","hello","Hello World!")
