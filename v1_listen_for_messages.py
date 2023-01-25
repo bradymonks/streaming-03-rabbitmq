@@ -1,11 +1,8 @@
 """
+Brady Monks
+1/25/2023
 
-Always customize this docstring. 
-
-Add your name, date, and a description of the program.
-
-Listens for messages on the queue.
-This process runs continously. 
+This codes receives the messages that we previously sent to the queue.
 
 Approach
 ---------
