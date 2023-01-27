@@ -13,6 +13,8 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 
 `conda install -c conda-forge pika`
 
+![Multiple Terminals](MultipleTerminals.png)
+
 ## Read
 
 1. Read the [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
