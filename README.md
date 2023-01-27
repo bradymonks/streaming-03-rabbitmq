@@ -13,7 +13,6 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 
 `conda install -c conda-forge pika`
 
-![Multiple Terminals](MultipleTerminals.png)
 
 ## Read
 
@@ -95,5 +94,5 @@ Each of the version 2 programs include an error as well.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 
 ## Multiple Terminals
-
+![Multiple Terminals](MultipleTerminals.png)
 ![Mac Example](screenshot.png)
